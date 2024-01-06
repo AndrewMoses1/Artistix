@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14  # Specify a Node.js version compatible with your project
+    commands:
+      - echo "Installing Node.js dependencies"
+      - npm install  # or use yarn if you prefer
+
+  pre_build:
+    commands:
+      - echo "Running pre-build tasks, if any"
+
+  build:
+    commands:
+      - echo "Building the React application"
+      - npm run build  # Adjust this command based on your project's build script
+
+artifacts:
+  files:
+    - '**/*'  # Include all files generated in the build
+  base-directory: './'  # Set the base directory to the root directory
+
+cache:
+  paths:
+    - '/root/.npm'  # Cache npm packages for faster builds
