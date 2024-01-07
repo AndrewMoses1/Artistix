@@ -1,10 +1,6 @@
 import "../App.css";
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import routeCalStep1 from '../Media/route-cal-step1.mp4';
-import routeCalStep2 from '../Media/route-cal-step2.mp4';
-import routeCalStep3 from '../Media/route-cal-step3.mp4';
-import routeCalStep4 from '../Media/route-cal-step4.mp4';
 import tabletViewAndMobileViewInactiveMenu from '../Media/tabletView-and-mobileView-inactive-menu.png'
 import tabletViewAndMobileViewactiveMenu from '../Media/tabletView-and-mobileView-active-menu.png'
 import { routeResizePORTANDCAL, routeScrollPORTANDCAL } from '../App';
@@ -150,13 +146,13 @@ function Calligraphy() {
                 <span class="route-name">Calligraphy</span>
                 <span class="route-procreate-app">( All designs are done using the Procreate app for IPad )</span>
                 <span class="route-step1">Step 1</span>
-                <video autoPlay playsInline muted loop class="route-step1-movie" style={{ opacity: opacity, transform: `translateY(${translateY}vw)` }}><source src={routeCalStep1} type="video/mp4" /></video>
+                <video autoPlay playsInline muted loop class="route-step1-movie" style={{ opacity: opacity, transform: `translateY(${translateY}vw)` }}><source src="https://artistix.blob.core.windows.net/artistix/route-cal-step1.mp4" type="video/mp4" /></video>
                 <span class="route-step2">Step 2</span>
-                <video muted playsInline loop class="route-step2-movie" style={{ opacity: opacity2, transform: `translateY(${translateY2}vw)` }}><source src={routeCalStep2} type="video/mp4" /></video>
+                <video muted playsInline loop class="route-step2-movie" style={{ opacity: opacity2, transform: `translateY(${translateY2}vw)` }}><source src="https://artistix.blob.core.windows.net/artistix/route-cal-step2.mp4" type="video/mp4" /></video>
                 <span class="route-step3">Step 3</span>
-                <video muted playsInline loop class="route-step3-movie"><source src={routeCalStep3} type="video/mp4" /></video>
+                <video muted playsInline loop class="route-step3-movie"><source src="https://artistix.blob.core.windows.net/artistix/route-cal-step3.mp4" type="video/mp4" /></video>
                 <span class="route-step4">Step 4</span>
-                <video muted playsInline loop class="route-step4-movie"><source src={routeCalStep4} type="video/mp4" /></video>
+                <video muted playsInline loop class="route-step4-movie"><source src="https://artistix.blob.core.windows.net/artistix/route-cal-step4.mp4" type="video/mp4" /></video>
             </main>
 
         </>
