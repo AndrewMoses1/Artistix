@@ -149,11 +149,11 @@ function Animations() {
                 <span class="route-name">Animations</span>
                 <span class="route-procreate-app">( All designs are done using the Procreate app for IPad )</span>
                 <span class="route-step1">Step 1</span>
-                <video autoPlay playsInline muted loop class="route-step1-movie" style={{ opacity: opacity, transform: `translateY(${translateY}vw)` }}><source src={routeAnimStep1} type="video/mp4" /></video>
+                <video autoPlay playsInline muted loop class="route-step1-movie" style={{ opacity: opacity, transform: `translateY(${translateY}vw)` }}><source src="https://artistix.blob.core.windows.net/artistix/route-anim-step1.mp4" type="video/mp4" /></video>
                 <span class="route-step2">Step 2</span>
-                <video muted playsInline loop class="route-step2-movie" style={{ opacity: opacity2, transform: `translateY(${translateY2}vw)` }}><source src={routeAnimStep2} type="video/mp4" /></video>
+                <video muted playsInline loop class="route-step2-movie" style={{ opacity: opacity2, transform: `translateY(${translateY2}vw)` }}><source src="https://artistix.blob.core.windows.net/artistix/route-anim-step2.mp4" type="video/mp4" /></video>
                 <span class="route-step3">Step 3</span>
-                <video muted playsInline loop class="route-step3-movie"><source src={routeAnimStep3} type="video/mp4" /></video>
+                <video muted playsInline loop class="route-step3-movie"><source src="https://artistix.blob.core.windows.net/artistix/route-anim-step3.mp4" type="video/mp4" /></video>
             </main>
 
         </>
