@@ -1,0 +1,20 @@
+version: 1.0
+app:
+  name: my-react-app
+  build:
+    runtime: nodejs14
+    command:
+      - npm
+      - start
+  environment:
+    - name: NODE_ENV
+      value: production
+    - name: PORT
+      value: 3000
+  source:
+    type: image
+    repository: your-docker-repo/my-react-app
+    branch: main
+    image: latest
+  ports:
+    - 3000
