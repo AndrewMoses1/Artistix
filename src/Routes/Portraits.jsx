@@ -1,10 +1,6 @@
 import "../App.css";
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import routePortStep1 from '../Media/route-port-step1.mp4';
-import routePortStep2 from '../Media/route-port-step2.mp4';
-import routePortStep3 from '../Media/route-port-step3.mp4';
-import routePortStep4 from '../Media/route-port-step4.mp4';
 import tabletViewAndMobileViewInactiveMenu from '../Media/tabletView-and-mobileView-inactive-menu.png'
 import tabletViewAndMobileViewactiveMenu from '../Media/tabletView-and-mobileView-active-menu.png'
 import { routeResizePORTANDCAL, routeScrollPORTANDCAL } from '../App';
@@ -156,13 +152,13 @@ function Portraits() {
                 <span class="route-name">Portraits</span>
                 <span class="route-procreate-app">( All designs are done using the Procreate app for IPad )</span>
                 <span class="route-step1">Step 1</span>
-                <video autoPlay playsInline muted loop class="route-step1-movie" style={{ opacity: opacity, transform: `translateY(${translateY}vw)` }}><source src={routePortStep1} type="video/mp4" /></video>
+                <video autoPlay playsInline muted loop class="route-step1-movie" style={{ opacity: opacity, transform: `translateY(${translateY}vw)` }}><source src="https://artistix.blob.core.windows.net/artistix/route-port-step1.mp4" type="video/mp4" /></video>
                 <span class="route-step2">Step 2</span>
-                <video muted playsInline loop class="route-step2-movie" style={{ opacity: opacity2, transform: `translateY(${translateY2}vw)` }}><source src={routePortStep2} type="video/mp4" /></video>
+                <video muted playsInline loop class="route-step2-movie" style={{ opacity: opacity2, transform: `translateY(${translateY2}vw)` }}><source src="https://artistix.blob.core.windows.net/artistix/route-port-step2.mp4" type="video/mp4" /></video>
                 <span class="route-step3">Step 3</span>
-                <video muted playsInline loop class="route-step3-movie"><source src={routePortStep3} type="video/mp4" /></video>
+                <video muted playsInline loop class="route-step3-movie"><source src="https://artistix.blob.core.windows.net/artistix/route-port-step3.mp4" type="video/mp4" /></video>
                 <span class="route-step4">Step 4</span>
-                <video muted playsInline loop class="route-step4-movie"><source src={routePortStep4} type="video/mp4" /></video>
+                <video muted playsInline loop class="route-step4-movie"><source src="https://artistix.blob.core.windows.net/artistix/route-port-step4.mp4" type="video/mp4" /></video>
             </main>
 
         </>
