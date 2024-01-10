@@ -979,7 +979,7 @@
 .route-header {
   position: relative;
   display: flex;
-  z-index: 11;
+  z-index: 31;
 }
 .route-title-content-container {
   position: fixed;
