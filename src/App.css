@@ -2123,6 +2123,9 @@
   .home-main {
     height: 400vw;
   }
+  .route-header {
+    z-index: 31;
+  }
   .route-mainPORTANDCAL {
     height: 660vw;
   }
@@ -2276,7 +2279,7 @@
     top: 0;
     left: 0;
     height: 20vw;
-    z-index: 11;
+    z-index: 31;
   }
   .route-title-content-container {
     position: fixed;
@@ -2299,7 +2302,7 @@
     color: white;
   }
   .route-main {
-    height: 305vw;
+    height: 515vw;
   }
   .route-mainCAL {
     height: 660vw;
@@ -2480,7 +2483,7 @@
     top: 0;
     left: 0;
     height: 20vw;
-    z-index: 11;
+    z-index: 31;
   }
   .route-title-content-container {
     position: fixed;
