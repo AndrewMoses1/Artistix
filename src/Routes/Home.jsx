@@ -44,6 +44,7 @@ function Home() {
             var homeAboutDuringImage = document.querySelector(".home-about-during-image");
             var homeSafariBrowserOnlyAboutAfterImage = document.querySelector(".home-safariBrowserOnly-about-after-image");
             var homeMobileViewAboutContent1 = document.querySelector(".home-mobileView-about-content1");
+            var homeMain = document.querySelector(".home-main");
             homeAboutBeforeImage.style.position = 'absolute';
             homeAboutDuringImage.style.display = 'none';
             homeAboutBeforeImage.style.opacity = 0;
@@ -52,6 +53,12 @@ function Home() {
             if (window.innerWidth <= 600) {
             homeMobileViewAboutContent1.style.marginTop = "-2vw";
             }
+            if (window.innerWidth <= 1200) {
+                homeMain.style.backgroundSize = "7vw";
+                }
+            if (window.innerWidth > 1200 ) {
+                  homeMain.style.backgroundSize = "4vw";
+                }
         } else {
         }
             window.addEventListener('resize', homeResize);
@@ -154,7 +161,7 @@ function Home() {
                     </div>
                 </div>
                 <div class="home-1st-pink-line"></div>
-                <div class="hpme-2nd-pink-line"></div>
+                <div class="home-2nd-pink-line"></div>
                 <div class="home-about-content-box"></div>
                 <div class="home-about-content-box2"></div>
                     {/* home-about-before-image and home-about-during-image are both aligned to the left in the mobile view because the animation uses the spacing to the right of the About text, which was causing overflowX issues. */}
